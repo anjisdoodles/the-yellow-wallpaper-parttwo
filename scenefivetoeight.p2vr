@@ -86,7 +86,7 @@
         <hotspot>
           <position>
             <pan>-68.22</pan>
-            <tilt>-19.22</tilt>
+            <tilt>-19.44</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -209,6 +209,7 @@
           <linktype>url</linktype>
           <linksubtype>unknown</linksubtype>
           <url>https://anjisdoodles.github.io/the-yellow-wallpaper-partthree/</url>
+          <target>_self</target>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
