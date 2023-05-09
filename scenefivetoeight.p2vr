@@ -28,21 +28,22 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>-216.06</pan>
+            <pan>-215.81</pan>
             <tilt>8.15</tilt>
             <fov>10</fov>
           </position>
           <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
+            <pan>-12.1</pan>
+            <tilt>-12.7</tilt>
+            <fov>70</fov>
           </next>
           <polygon/>
           <type>point</type>
-          <id>Point01</id>
+          <id>Scenefivetosix</id>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node2}</url>
+          <target>-12.1/-12.7/70.0</target>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
@@ -62,7 +63,7 @@
     <panorama>
       <input>
         <patch/>
-        <type>flat</type>
+        <type>cylindrical</type>
         <filename>images/6_-_fin.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
@@ -85,21 +86,22 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>-68.22</pan>
-            <tilt>-19.44</tilt>
+            <pan>-69.84</pan>
+            <tilt>-20.07</tilt>
             <fov>10</fov>
           </position>
           <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
+            <pan>-8.7</pan>
+            <tilt>8.3</tilt>
+            <fov>70</fov>
           </next>
           <polygon/>
           <type>point</type>
-          <id>Point01</id>
+          <id>to7</id>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node3}</url>
+          <target>-8.7/8.3/70.0</target>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
@@ -140,8 +142,8 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>-285.9</pan>
-            <tilt>-2.3</tilt>
+            <pan>-249.84</pan>
+            <tilt>57.75</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -151,7 +153,7 @@
           </next>
           <polygon/>
           <type>point</type>
-          <id>Point01</id>
+          <id>sceneseventoeight</id>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node4}</url>
@@ -194,8 +196,8 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>-278.85</pan>
-            <tilt>-88.08</tilt>
+            <pan>-287.21</pan>
+            <tilt>-86.4</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -205,7 +207,7 @@
           </next>
           <polygon/>
           <type>point</type>
-          <id>Point01</id>
+          <id>Point01n</id>
           <linktype>url</linktype>
           <linksubtype>unknown</linksubtype>
           <url>https://anjisdoodles.github.io/the-yellow-wallpaper-partthree/</url>
@@ -267,6 +269,34 @@
         <webvr/>
         <tilesize>1000</tilesize>
         <filename>output/pano.xml</filename>
+        <skinfile>cardboard.ggsk</skinfile>
+      </htmlcss>
+      <htmlcss>
+        <html>
+          <values>
+            <value id="css"></value>
+            <value id="fitcover">false</value>
+            <value id="gginfo">false</value>
+            <value id="htmltitle">$(upt)</value>
+            <value id="jsxml">false</value>
+            <value id="parseanchor">false</value>
+          </values>
+          <enabled>1</enabled>
+          <filename>output-2/index.html</filename>
+        </html>
+        <facequality/>
+        <transition>
+          <zoomafterinfov>90</zoomafterinfov>
+          <zoomafteroutfov>20</zoomafteroutfov>
+        </transition>
+        <autorotate/>
+        <soundstransition/>
+        <flyintransition/>
+        <hotspottext/>
+        <hotspotstyle/>
+        <webvr/>
+        <tilesize>1024</tilesize>
+        <filename>output-2/pano.xml</filename>
         <skinfile>cardboard.ggsk</skinfile>
       </htmlcss>
     </output>
